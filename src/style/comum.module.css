@@ -1,0 +1,29 @@
+.line {
+    display: flex;
+}
+
+.one,
+.two,
+.three {
+    width: 10%;
+    height: 5px;
+    border: none;
+}
+
+.one {
+    background-color: #205988;
+}
+
+.two {
+    background-color: #0077CA;
+}
+
+.three {
+    background-color: #00E0F7;
+}
+
+.allTitle {
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+}

@@ -1,0 +1,48 @@
+.container {
+    background-image: url('../img/footer.png');
+    background-repeat: no-repeat;
+    height: 76px;
+    z-index: 1;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    height: 76px;
+    margin: 0 15%;
+    flex-grow: 1;
+}
+
+.logo img {
+    width: 133px;
+    height: 36px;
+}
+
+
+.copy p {
+    color: #fff;
+    text-align: center;
+}
+
+.marca {
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        display: block;
+        text-align: center;
+    }
+
+    .container {
+        height: 190px;
+    }
+
+    .logo,
+    .copy,
+    .marca {
+        padding: 10px 0;
+    }
+}

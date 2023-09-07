@@ -1,0 +1,4 @@
+.fourSection {
+  display: flex;
+  flex-wrap: wrap;
+}

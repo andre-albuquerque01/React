@@ -1,0 +1,10 @@
+.youtube, .instagram{
+    flex-grow: 1;
+}
+.video{
+    display: flex;
+}
+
+.instagram{
+    display: block;
+}

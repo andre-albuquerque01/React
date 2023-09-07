@@ -1,0 +1,67 @@
+nav,
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+header {
+  background-color: #F9F9F9;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+li:hover {
+  font-size: 12px;
+  text-align: center;
+}
+
+li:not(:last-child) {
+  margin: 0 15px;
+}
+
+.logo img {
+  width: 146.27px;
+  height: 40px;
+}
+.iconActive, .icon {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+  }
+
+  ul {
+    list-style: none;
+    justify-content: space-evenly;
+  }
+  
+  li {
+    margin: 0; /* Remova as margens */
+  }
+  
+  .iconActive, .icon {
+    display: block;
+  }
+  .menuClose {
+    display: none;
+  }
+
+  .menuOpen {
+    cursor: pointer;
+    z-index: 4;
+    background-color: #F9F9F9;
+    position: absolute;
+    top: 50px; /* Posicione a caixa abaixo do ícone */
+    left: 0;
+    width: 100%; /* Ocupa toda a largura da tela */
+    transition: top 0.3s ease-in-out; /* Adicione uma transição para um efeito suave */
+  }
+}

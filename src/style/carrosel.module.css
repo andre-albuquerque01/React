@@ -1,0 +1,40 @@
+.conteinerMain {
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.carrosel {
+    /* width: 1140px; */
+    height: 321.7px;
+    max-width: 1140px;
+    object-fit: cover;
+    padding: 25px 0px;
+}
+
+main {
+    background-image: url('../img/backgroundCarrosel.png');
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .conteinerMain {
+        width: 100%;
+        margin: 0 auto;
+
+    }
+
+    main {
+        /* Mantenha o padding mínimo para o fundo */
+        padding: 35px 0;
+    }
+
+    .carrosel {
+        object-fit: scale-down;
+        width: auto;
+        margin: 0 auto;
+        padding: 20px;
+        width: 350px;
+    }
+}
